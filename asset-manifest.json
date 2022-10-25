@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Youtubelethanh/static/css/main.6f243ed1.css",
+    "main.js": "/Youtubelethanh/static/js/main.ed33f22a.js",
+    "static/js/787.07d9f7b7.chunk.js": "/Youtubelethanh/static/js/787.07d9f7b7.chunk.js",
+    "static/media/imgpa.png": "/Youtubelethanh/static/media/imgpa.77b09928bc1ca3a5cf49.png",
+    "static/media/up1.png": "/Youtubelethanh/static/media/up1.b95a674bfeac09f349d6.png",
+    "static/media/up5.png": "/Youtubelethanh/static/media/up5.0ddcab08f16b2b865772.png",
+    "static/media/Anhnen.png": "/Youtubelethanh/static/media/Anhnen.8871be951d057ad1d3eb.png",
+    "static/media/up3.png": "/Youtubelethanh/static/media/up3.08bd2947b2347fff244e.png",
+    "static/media/up4.png": "/Youtubelethanh/static/media/up4.c4d7e13b6dfca67722cc.png",
+    "static/media/up2.png": "/Youtubelethanh/static/media/up2.a2373f39f0f3c070861a.png",
+    "static/media/imgpb.png": "/Youtubelethanh/static/media/imgpb.f33f53678640031e343a.png",
+    "static/media/imgpc.png": "/Youtubelethanh/static/media/imgpc.e36843eefd4177da7c6f.png",
+    "static/media/pera.png": "/Youtubelethanh/static/media/pera.efa3b7d2f332336b0eb4.png",
+    "static/media/perc.png": "/Youtubelethanh/static/media/perc.6ec516d3f9e9fbd2af22.png",
+    "static/media/doan.png": "/Youtubelethanh/static/media/doan.243e5540e597e17f4b1d.png",
+    "static/media/logoanh.png": "/Youtubelethanh/static/media/logoanh.be19dde81fc67f287d69.png",
+    "static/media/perb.png": "/Youtubelethanh/static/media/perb.ef5ad510ed38798b014d.png",
+    "index.html": "/Youtubelethanh/index.html",
+    "main.6f243ed1.css.map": "/Youtubelethanh/static/css/main.6f243ed1.css.map",
+    "main.ed33f22a.js.map": "/Youtubelethanh/static/js/main.ed33f22a.js.map",
+    "787.07d9f7b7.chunk.js.map": "/Youtubelethanh/static/js/787.07d9f7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f243ed1.css",
+    "static/js/main.ed33f22a.js"
+  ]
+}

@@ -16,18 +16,19 @@ const Howd=styled.div
 const Hed=styled.h3
 `   font-size: 25px;
     color: #204370;
-    margin-top: 30px; 
+    margin-top: 50px; 
+    line-height: 50px;
 `;
 
 const Hop=styled.div
 `   width: 100%;
-    height: 190px;
+    height: 240px;
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color:#F4F6F8;
     margin-top: 20px; 
-    text-align:center;
+    
 `;
 
 const Hopdong=styled.div
@@ -51,8 +52,8 @@ const Hopdong=styled.div
 `;
 
 const Hopchu=styled.div
-`   padding-left: 9%;
-    padding-right: 17%;
+`   padding-left: 12%;
+    padding-right: 20%;
     padding-top:15px;
 `;
 

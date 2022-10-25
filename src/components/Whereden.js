@@ -26,6 +26,9 @@ const Headde= styled.div
         color: black;
     }
 `;
+const Mauu= styled.div
+`   background-color:#F4F6F8;
+`;
 const Maun=styled.div
 `   background-color: #204370;
     height:100%;
@@ -49,8 +52,8 @@ const Bor= styled.div
 const Nutour= styled.button
 `   padding-top: 12px;
     padding-bottom:12px;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 20px;
+    padding-right:17px;
     border: 1px solid #204370;
     background-color:#204370;
     color: white;
@@ -58,7 +61,8 @@ const Nutour= styled.button
     border-radius: 25px;
 `;
 const Mai= styled.div
-`   margin-top: 30px;
+`   padding-top: 30px;
+    font-size: 13px;
 `;
 const Menufoot= styled.div
 `   border-top: 1px solid rgba(35, 35, 39, 0.1);
@@ -71,6 +75,7 @@ const Menufoot= styled.div
 const Menuf= styled.div
 `   display:flex; 
     font-size:13px;
+    justify-content: center;
     p{
         padding-left:10px;
         padding-right: 10px;
@@ -81,7 +86,9 @@ const Cen=styled.div
 `   text-align: center;
     padding: 15px;
 `;
-
+const Phai=styled.div
+`   text-align: left;
+`;
 const Icons= styled.div
 `   display: flex;
     justify-content: center;
@@ -105,7 +112,8 @@ function Whereden()
             </div>
             <div class="col-lg-3 p-0"><Maun></Maun></div>
         </div>
-        <div class="d-md-none d-sm-block d-block">
+        
+        <div class="d-md-none d-sm-block d-block m-0">
             <Cen>
                 <img src={imgd} width="60px" height="60px"/>               
                 <p>We connect, inspire, and empower the world’s entrepreneurs.</p>                                  
@@ -122,7 +130,7 @@ function Whereden()
                     Join our communnity
                 </Nutour>
                 <Bor></Bor>
-                <h1>WHAT WE DO</h1>
+                <Phai><b>WHAT WE DO</b></Phai><p></p>
                 <div class="row">
                     <div class="col-sm-6 col-6">
                         <p>Community - DEN</p>
@@ -137,7 +145,7 @@ function Whereden()
                     </div>
                 </div>
                 <Bor></Bor>
-                <h1>HOW FAR DO YOU WANT TO GO TODAY?</h1>
+                <Phai><b>HOW FAR DO YOU WANT TO GO TODAY?</b></Phai><p></p>
                 <div class="row">
                     <div class="col-sm-6 col-6">
                         <p>Bali</p>
@@ -168,48 +176,46 @@ function Whereden()
             </Cen>
         </div> 
         <Mai>
-            <div class="row">           
-                <div class="col-lg-1 d-md-block d-sm-none d-none">
+            <div class="row ">           
+                <div class="col-lg-1 d-lg-block col-md-1 d-md-block d-sm-none d-none m-0">
                     <img src={imgd} width="60px" height="60px"/>
                 </div>
-                <div class="col-lg-11 ">
+                <div class="col-lg-11 col-md-11 m-0">
                     <div class="row">
-                        <div class="col-lg-4 d-md-block d-sm-none d-none">  
+                        <div class="col-lg-4 col-md-4 d-lg-block d-md-block d-sm-none d-none">  
                             <We>
                             <p>We connect, inspire, and empower the world’s entrepreneurs.</p>             
                             </We>                       
                             <Wec></Wec>
                             <b>USA Headquarters</b>
+                            <p></p>
                             <p>612 East 6th Street</p>
                             <p>Austin, TX 78701 USA</p>
                             <p><a href="#">austin@draperstartuphouse.com</a> </p>                           
                             <b>International Headquarters</b>
+                            <p></p>
                             <p>39 Ann Siang Road </p>
                             <p>Singapore 069716</p>
                             <a href="#">hello@draperstartuphouse.com</a>   
                         </div>
-                        <div class="col-lg-8 d-md-block d-sm-none d-none"> 
+                        <div class="col-lg-8 col-md-8 d-lg-block d-md-block d-sm-none d-none"> 
                             <b>WHAT WE DO</b>
                             <p></p>
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 col-md-2">
                                     <p>Community - DEN</p>
                                     <p>Ventures</p>
                                 </div>
-
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-md-2">
                                     <p>Academy </p>
                                     <p>Services</p>
                                 </div>
-
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 col-md-3">
                                     <p>Partnerships </p>
                                     <p>Location Partners</p>
                                 </div>
-
-                                <div class="col-lg-1"></div>
-
-                                <div class="col-lg-3 d-md-block d-sm-none d-none">
+                                <div class="col-lg-1 d-md-none d-lg-block"></div>
+                                <div class="col-lg-3 col-md-5 ">
                                     <Nutour>
                                         Join our communnity
                                     </Nutour>
@@ -219,54 +225,48 @@ function Whereden()
                             <b>HOW FAR DO YOU WANT TO GO TODAY?</b>    
                             <p></p>
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-md-2">
                                     <p>Bali</p>
                                     <p>Bangalore</p>
                                     <p>Buenos Aires </p>
                                     <p>Singapore</p>
                                     <p>Lisbon</p>
                                 </div>
-
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-md-2">
                                     <p>Canary Islands</p>                       
                                     <p>Chiang Mai </p>
                                     <p>Da Nang</p>
                                     <p>Valencia</p>
                                 </div>
-
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-md-2">
                                     <p>Lisbon  </p>
                                     <p> Manila</p>
                                     <p>Penang</p>
                                     <p>Canary Islands</p>
                                     <p> Valencia</p>
                                 </div>
-
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-md-2">
                                     <p>Lisbon </p>
                                     <p> Manila</p>
                                     <p>Penang </p>
                                     <p>Bangalore</p>
                                 </div>
-
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-md-2">
                                     <p>Lisbon  </p>
                                     <p>Manila</p>
                                     <p>Penang</p>
                                     <p> Bangalore</p>
                                 </div>
-
-                                <div class="col-lg-2"></div>
+                                <div class="col-lg-2 col-md-2"></div>
                             </div>
                         </div>
                     </div>
                     <Menufoot>
                         <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="col-lg-3 col-md-4 col-sm-12 col-12">
                                 <p>Copyright © Draper Startup House 2021</p>
                             </div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="col-lg-6 col-md-5 col-sm-12 col-12">
                                 <Menuf>
                                     <p>Home</p>
                                     <p>About</p>
@@ -275,7 +275,7 @@ function Whereden()
                                     <p>Privacy Policy</p>
                                 </Menuf>
                             </div>
-
+                            <div class="col-lg-1 col-md-1 "></div>
                             <div class="col-lg-2 col-md-2 col-sm-12 col-12">
                                 <Icons>
                                     <img src={w1}/>
@@ -288,7 +288,7 @@ function Whereden()
                     </Menufoot>         
                 </div>               
             </div> 
-        </Mai>
+        </Mai>       
     </div>
   )
 }

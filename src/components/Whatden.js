@@ -18,9 +18,10 @@ const Whatd = styled.div
 
 const Hea = styled.div
 `   color: #204370;
-    font-size:30px;
+    font-size:27px;
     margin-top:20px;
     margin-bottom:50px;
+    line-height: 35px;
 `;
 
 const Nutten = styled.div
@@ -28,8 +29,10 @@ const Nutten = styled.div
     margin-top: 50px;
     margin-right: 30px;
     button{
-        width: 60px;
-        height: 40px;
+        width: 40px;
+        height: 30px;
+        padding-top: 2px;
+        padding-bottom: 30px;
         border-left: none;
         border-bottom: none;
         border-top: none;
@@ -40,17 +43,20 @@ const Nutten = styled.div
 
 const Imgper1 = styled.div
 `  background-image: url(${pera});
+    margin-bottom: 70px;
     width:100%;
     background-size: 100%100%;
-    font-size: 14px;
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right:20px;
-    margin-bottom: 70px;
+    font-size: 12px;
+    padding-top: 23%;
+    padding-left: 7%;
+    padding-right:5%;
     div{
-        
-        margin-left: 120px;
-        margin-bottom: 30px;
+        height: 70px;
+        margin-left:37%;
+        //margin-bottom: 10px;;
+        b{
+            font-size:15px;
+        }       
     }
 `;
 
@@ -58,14 +64,17 @@ const Imgper2 = styled.div
 `  background-image: url(${perb});
     width:100%;
     background-size: 100%100%;
-    font-size: 14px;
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right:20px;
+    font-size: 12px;
+    padding-top: 23%;
+    padding-left: 7%;
+    padding-right:5%;
     div{
-        
-        margin-left: 120px;
-        margin-bottom: 30px;
+        height: 70px;
+        margin-left:37%;
+        //margin-bottom: 10px;;
+        b{
+            font-size:15px;
+        }       
     }
 `;
 
@@ -73,14 +82,17 @@ const Imgper3 = styled.div
 `  background-image: url(${perc});
     width:100%;
     background-size: 100%100%;
-    font-size: 14px;
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right:20px;
+    font-size: 12px;
+    padding-top: 23%;
+    padding-left: 7%;
+    padding-right:5%;
     div{
-        
-        margin-left: 120px;
-        margin-bottom: 30px;
+        height: 70px;
+        margin-left:37%;
+       // margin-bottom: 10px;;
+        b{
+            font-size:15px;
+        }       
     }
 `;
 
@@ -88,7 +100,7 @@ const Imgper3 = styled.div
 const Foott = styled.div
 `   color: white;
     background-color:#204370;
-    font-size:28px;
+    font-size:25px;
     font:Alternate Gothic No1 D;
     text-align: center;
     margin-top: 0;
@@ -98,7 +110,7 @@ const Foott = styled.div
     padding-right: 12%;
     padding-bottom: 50px;
     width: 100%;
-
+    line-height: 35px;
 `;
 
 const Maunen=styled.div
@@ -116,7 +128,7 @@ function Whatden()
         <Whatd>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <Hea>
                             <b>WHAT PEOPLE ARE</b>
                             <p><b>SAYING ABOUT DEN</b></p>
@@ -124,16 +136,16 @@ function Whatden()
                         
                     </div>
 
-                    <div class="col-md-7 d-sm-none d-none d-md-block"></div>
+                    <div class="col-lg-7 col-md-5 d-sm-none d-none d-md-block d-lg-block"></div>
 
-                    <div class="col-md-1 d-sm-none d-none d-md-block">
+                    <div class="col-lg-1 col-md-1 d-sm-none d-none d-md-block d-lg-block">
                         <Nutten>
                             <button>
-                                <img src={tentrai} width="15px" height="15px"/>
+                                <img src={tentrai} width="12px" height="10px"/>
                             </button>
 
                             <button>
-                                <img src={tenphai} width="15px" height="15px" />
+                                <img src={tenphai} width="12px" height="10px" />
                             </button>
                         </Nutten>
                     </div>

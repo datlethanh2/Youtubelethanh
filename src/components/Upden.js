@@ -24,12 +24,13 @@ const Heade= styled.h1
 `   color: #204370;
     font-size: 27px;
     padding-top:10px;
+    line-height: 45px;
 `;
 
 const Doangiua= styled.div
 `   color:rgba(35, 35, 39, 0.8);
-    font-size: 10px;
-    width: 70%;
+    font-size: 12px;
+    width: 100%;
     margin-top: 15px;
 `;
 
@@ -64,16 +65,21 @@ const Nutse= styled.div
 
 const Phong= styled.div
 `   margin-bottom: 50px;
+    padding-top: 10px;
     img{
         width:100%;
         height: 300px;
     }
+    div{
+        height: 90px;
+        padding-top: 15px; 
+    }
     p{
         color:blue;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     button{
-        margin-top: 28px;
+        margin-top: 10px;
         background: #FFCC00;
         border-radius: 40px;
         border:#FFCC00;
@@ -106,21 +112,21 @@ function Upden()
         <div class="container-fluid">
             <Headd>
                 <div class="row">
-                    <div class="col-md-4 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-5 col-sm-12 col-12">
                         <Heade>
                             UPCOMING EVENTS
                         </Heade>
                     </div>
 
-                    <div class="col-md-4 col-sm-12 col-12">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
                         <Doangiua>
                             <p>Find the best offline and online events and training programs right here.</p>
                         </Doangiua>
                     </div>
 
-                    <div class="col-md-1 d-sm-none d-none d-md-block"></div>
+                    <div class="col-lg-2 d-md-none d-sm-none d-none d-lg-block"></div>
 
-                    <div class="col-md-3 d-sm-none d-none d-md-block">
+                    <div class="col-lg-3 col-md-4 d-sm-none d-none d-md-block">
                         <Nutsee>
                             <button>
                                 See all upcoming events
@@ -135,7 +141,7 @@ function Upden()
                     <Phong>
                         <img src={up1} />
                         <p>15 JAN 2021</p>
-                        <b>HOW TO TEST IDEAS WITH NO MONEY OR TIME</b>
+                        <div><b>HOW TO TEST IDEAS WITH NO MONEY OR TIME</b></div>
                         <p></p>
                         <button>
                             Register
@@ -147,7 +153,7 @@ function Upden()
                     <Phong>
                         <img src={up2} />
                         <p>08 JUN 2021</p>
-                        <b>CLEANTECH STARTUPS FROM FINLAND AND ESTONIA TO ENTER MALAYSIA</b>
+                        <div><b>CLEANTECH STARTUPS FROM FINLAND AND ESTONIA TO ENTER MALAYSIA</b></div>
                         <p></p>
                         <button>
                             Register
@@ -159,7 +165,7 @@ function Upden()
                     <Phong>
                         <img src={up3} />
                         <p>17 MAY 2021</p>
-                        <b>YOGA-FIRST CASS FOR BEGINER-FEEL FREE TO SIGN UP HERE</b>
+                        <div><b>YOGA-FIRST CASS FOR BEGINER-FEEL FREE TO SIGN UP HERE</b></div>
                         <p></p>
                         <button>
                             Register
@@ -173,7 +179,7 @@ function Upden()
                     <Phong>
                         <img src={up4} />
                         <p>15 JAN 2021</p>
-                        <b>HOW TO TEST IDEAS WITH NO MONEY OR TIME</b>
+                        <div><b>HOW TO TEST IDEAS WITH NO MONEY OR TIME</b></div>
                         <p></p>
                         <button>
                             Register
@@ -185,7 +191,7 @@ function Upden()
                     <Phong>
                         <img src={up5} />
                         <p>08 JUN 2021</p>
-                        <b>CLEANTECH STARTUPS FROM FINLAND AND ESTONIA TO ENTER MALAYSIA</b>
+                        <div><b>CLEANTECH STARTUPS FROM FINLAND AND ESTONIA TO ENTER MALAYSIA</b></div>
                         <p></p>
                         <button>
                             Register

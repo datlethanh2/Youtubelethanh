@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useState } from "react";
-
 import logo from '../images/logo.png';
 import den from '../images/den.png';
 import Anhnen from "../images/Anhnen.png";
@@ -67,9 +66,24 @@ const Menunut =styled.div
 }
 `;
 
-
 const Joinbutton = styled.div
-`  
+`   text-align: right;
+    button{
+        margin-top: 20px;
+        margin-bottom:30px;
+        border: 1px solid #204370;
+        background-color: white;
+        font-size: 14px;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+`;
+
+const Joinbutton1 = styled.div
+`   text-align: center;
     button{
         margin-top: 20px;
         margin-bottom:30px;
@@ -85,8 +99,7 @@ const Joinbutton = styled.div
 `;
 
 const Main= styled.div
-`   text-align: center;
-    
+`   text-align: center;   
 `;
 
 const Den= styled.div
@@ -96,10 +109,10 @@ const Den= styled.div
 const Chugiua1 = styled.div
 `   margin-top: 28px;
     color: white;
-    font-size: 23px;
-    p{
-        margin: 0;
-    }
+    font-size: 18px;
+    line-height: 30px;
+    width:100%;
+   
 `;
 
 const Chugiua2 = styled.div
@@ -143,13 +156,10 @@ const Menuan = styled.div
             }
 `;
 
-
 function Header() 
 {
     const [an, setAn] = useState("none");
     const [ana, setAna] = useState("block");
-
-
     function Hien()
     {
         setAn('block');
@@ -160,7 +170,6 @@ function Header()
         setAn('none');
         setAna('block');
     }
-
   return (
     <Trangdau>   
         <div class="container-fluid">       
@@ -246,41 +255,44 @@ function Header()
                         <a href="#">ABOUT US</a>
                     </li>  
                     <li>
-                        <Joinbutton> 
+                        <Joinbutton1> 
                             <button>
                                 Join our community 
                             </button>                                                                                                  
-                        </Joinbutton>
+                        </Joinbutton1>
                     </li>  
                     <li>
                         <img src={logoanh} width="200px" height="180px"/>
                     </li>       
                 </ul>   
             </Menuan>    
-
             <div class="row">
-                <div class="col-lg-12">
-                    <Main>
-                        <Den>
-                            <img src={den} />  
-                        </Den>
-                        <Chugiua1>
-                            <p>GLOBAL NETWORK FOR </p>
-                            <p>MENTORSHIP AND SUPPORT</p>
-                        </Chugiua1>
-                        <Chugiua2>
-                            <p>Get all the support and education you need</p> 
-                            <p>to achieve full potential as an entrepreneur.</p>
-                        </Chugiua2>
-                        <Join>
-                            Join DEN
-                        </Join>
-                    </Main>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 d-sm-none d-none d-lg-block d-md-block"></div>
+                        <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                            <Main>
+                                <Den>
+                                    <img src={den} />  
+                                </Den>
+                                <Chugiua1>
+                                    <p>GLOBAL NETWORK FOR MENTORSHIP AND SUPPORT</p>
+                                </Chugiua1>
+                                <Chugiua2>
+                                    <p>Get all the support and education you need</p> 
+                                    <p>to achieve full potential as an entrepreneur.</p>
+                                </Chugiua2>
+                                <Join>
+                                    Join DEN
+                                </Join>
+                            </Main>
+                        </div>
+                        <div class="col-lg-5 col-md-4 d-sm-none d-none d-lg-block d-md-block"></div>
+                    </div>                  
                 </div>
             </div>         
         </div>  
     </Trangdau>                                         
   )
 }
-
 export default Header;

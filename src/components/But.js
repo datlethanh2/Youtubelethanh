@@ -9,46 +9,58 @@ import perc from '../images/perc.png';
 
 const Imgper1 = styled.div
 `  background-image: url(${pera});
+    //margin-bottom: 10px;
     width:100%;
     background-size: 100%100%;
-    font-size: 14px;
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right:20px;
+    font-size: 12px;
+    padding-top: 17%;
+    padding-left: 7%;
+    //padding-right:5%;
     div{
-        
-        margin-left: 120px;
-        margin-bottom: 30px;
-    }
+        height: 70px;
+        margin-left:37%;
+        //margin-bottom: 10px;;
+        b{
+            font-size:15px;
+        }       
+}
 `;
 
 const Imgper2 = styled.div
 `  background-image: url(${perb});
+   // margin-bottom: 30px;
     width:100%;
     background-size: 100%100%;
-    font-size: 14px;
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right:20px;
+    font-size: 12px;
+    padding-top: 17%;
+    padding-left: 7%;
+   //padding-right:5%;
     div{
-        
-        margin-left: 120px;
-        margin-bottom: 30px;
-    }
+        height: 70px;
+        margin-left:37%;
+        //margin-bottom: 10px;;
+        b{
+            font-size:15px;
+        }       
+}
 `;
 
 const Imgper3 = styled.div
 `  background-image: url(${perc});
+    //margin-bottom: 30px;
     width:100%;
     background-size: 100%100%;
-    font-size: 14px;
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right:20px;
+    font-size: 12px;
+    padding-top: 17%;
+    padding-left: 7%;
+    //padding-right:5%;
     div{
-        
-        margin-left: 120px;
-        margin-bottom: 30px;
+        height: 70px;
+        margin-left:37%;
+        //margin-bottom: 10px;;
+        b{
+            font-size:15px;
+        }       
     }
 `;
 
